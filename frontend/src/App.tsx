@@ -1,12 +1,19 @@
-import Notificationbutton from "./componentes/notificationbutton"
+import Header from "./componentes/header"
+import Salescard from "./componentes/Salescard"
+
 
 function App() {
-  return (
+  return(
     <>
-      <h1>olamundo</h1>
-      <Notificationbutton />
-      <Notificationbutton/>
-    </>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container"></div>
+            <Salescard></Salescard>
+            </section >
+            </main>
+      </>
+    
   )
 }
-export default App
+            export default App
